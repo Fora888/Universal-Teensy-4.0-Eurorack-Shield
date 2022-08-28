@@ -876,6 +876,11 @@
       (net 27 "/5VPPAudioOutR") (pinfunction "2OUT") (pintype "output") (tstamp 8a6f7316-c01c-4705-9d06-0e7abbfab628))
     (pad "8" smd rect (at 2.721348 -1.905 90) (size 1.454899 0.558) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 21 "+12V") (pinfunction "VCC+") (pintype "power_in") (tstamp 5b59c494-4eda-47ca-9a54-bee5bf8d77f5))
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" (layer "F.Cu")
