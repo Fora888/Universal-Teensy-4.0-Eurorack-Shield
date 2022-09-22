@@ -1,5 +1,5 @@
 # Universal-Teensy-4.0-Eurorack-Shield
-This PCB is designed to piggyback onto a perfboard, to eneable easy designing and building of custom DSP based eurorack modules. One could say it's a eurorack Module-Module. It features two 24-bit audio input and two 24-bit audio output channels. The corresponding DAC and ADC are wired up to easily work with the PJRC audio library. 
+This PCB is designed to piggyback onto a perfboard, to eneable easy designing and building of custom DSP based eurorack modules. It features two 24-bit audio input and two 24-bit audio output channels. The corresponding DAC and ADC are wired up to easily work with the PJRC audio library. 
 
 ## Components
 All components minus the Teensy 4.0 microcontroller and PCB can be easily ordered with the mouser project below
@@ -22,4 +22,4 @@ The headers on the teensy need to be on the same side as the USB port, so that t
 There are currently no working examples. I am however working on a wavetable module based on this board. I'll add it as soon as it's finished.
 
 ## Disclaimer
-This design wasn't yet tested in an eurorack environment. Everything ***should*** work as intenden and be +-12V tolerant, if hooked up like in the schematic, but this has yet to be verified.
+The Updated PCB has yet to be build and is therefore not guaranteed to work. The last commit that was build and tested is [df5ed19](https://github.com/Fora888/Universal-Teensy-4.0-Eurorack-Shield/tree/df5ed198294865db2b968ab182dcd4eb55e7e81e)
